@@ -1,0 +1,28 @@
+@Algoexpert-coding-interview-questions
+Sub Array Sort
+
+Problem statement:-
+- Given an integer array, you need to find one continuous unsorted subarray that if you only sort this subarray in ascending order, then the whole array will be sorted in ascending order.
+- This function returns an array of 2 values :- the minimum and maximum out-of-order value indices to get the whole array sorted.
+- Return [-1,-1] If there are no continuous unsorted subarrays.
+
+Constraint:- 
+- The input array consist of exactly one unsorted subarray or none.
+
+Input format:-
+[1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19]
+
+Output format:-
+[3, 9]
+
+Test Cases:-
+1) Input :
+      [1, 2, 3, 4, 5]
+    Output :
+      [-1, -1]
+
+2) Input :
+      [1, 2, 4, 7, 10, 11, 7, 12, 6, 7, 16, 18, 19]
+    Output :
+      [3, 9]
+
