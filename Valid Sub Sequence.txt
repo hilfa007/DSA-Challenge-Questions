@@ -1,0 +1,30 @@
+@Algoexpert-coding-interview-questions
+Valid Sub Sequence
+
+Problem statement:-
+- Given two non-empty arrays of integers(array, sequence), write a function(validSubSequence) that determines whether the second array is a subsequence of the first one.
+- For example, given an array [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], a valid subsequence would be [2,4,6,8,10]. The numbers aren’t directly next to each other, but they are in the same order as when these integers were in the original array.
+- If the sequence is a valid sub-sequence, then return 1 or else return 0.
+
+Constraint:- 
+- A subsequence of an array doesn’t have to be adjacent in the given array but is in the same order as they appear in the array.
+
+Input format:-
+array : 1 2 3 4 5 6 7 8 9 10
+sequence : 1 2 3 5
+
+Output format:-
+1
+
+Test Cases:-
+1) Input :
+     array : 5 6 7 8 9 1 2 3 4 22
+     sequence : 2 3 5 1
+    Output :
+     0
+
+2)Input :
+    array : 11 22 43 65 34 21 12 32 23 44
+    sequence : 22 65 34 12
+   Output :
+    1
