@@ -1,0 +1,18 @@
+@Algoexpert-coding-interview-questions
+Find Three Largest Numbers
+
+Problem statement:-
+- Given an array of integers that are not necessarily sorted, write a function to find the three largest numbers in the input array.
+- Return a sorted array of these 3 largest numbers.
+
+Input format:-
+nums = [23, 9, -1, 0, -4, 8, 45, 50]
+
+Output format:-
+[23, 45, 50]
+
+Test Cases:-
+1) Input :
+      nums = [147, 1, -1, 18, -4, 8, 541, 50]
+    Output :
+      [50, 147, 541]
