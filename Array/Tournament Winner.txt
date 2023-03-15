@@ -1,0 +1,51 @@
+@Algoexpert-coding-interview-questions
+Tournament Winner
+
+Problem statement:-
+There is an algorithms tournament taking place where teams of programmers compete against each other to solve problems as fast as possible. Teams compete in a round-robin, where each team faces off against all other teams.
+Only two teams compete against each other at a time, for each competition, one team is designated the home team while the other is the away team.
+In each competition there’s always one winner and one loser, there are no ties.
+A team gets 3 points if it wins and 0 points if it loses. The team with the most points wins.
+For eg; if the results are given like [0 1 0]:- 1 indicates the home team won, and 0 indicates the away team won.
+- Given an array of pairs representing the teams that have competed against each other and an array containing the result of each competition.
+- Create a function that returns the winner of the tournament.
+
+Constraint:- 
+- The tournament will always have at least two teams.
+- Each team will compete against all other teams exactly once.
+- Exactly one team will win the tournament.
+
+Input format:-
+competitions : [["HTML", "C#"],
+                          ["C#", "python"],
+                          ["python", "HTML"]]
+results : 0 0 1
+
+Output format:-
+"python"
+
+Test Cases:-
+1) Input :
+      competitions : [["HTML", "JAVA"],
+                                 ["JAVA", "JS"],
+                                 ["JS", "HTML"]]
+      results : 1 0 0    
+    Output :
+      "HTML"
+
+2) Input :
+      competitions : [["HTML", "C#"],
+                                 ["C#", "Python"], 
+                                 ["Python", "HTML"]]
+      results : 0 1 1
+    Output :
+      "C#"
+
+3)  Input :
+       competitions : [["HTML", "C#"],
+                                 ["C#", "Python"], 
+                                 ["Python", "HTML"]]
+       results : 1 1 1
+     Output :
+       "HTML"
+     
