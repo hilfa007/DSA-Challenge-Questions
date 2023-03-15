@@ -1,0 +1,38 @@
+@Algoexpert-coding-interview-questions
+Search In Sorted Matrix
+
+Problem statement:-
+-  Given a sorted matrix and an integer , return the position of the integer in the matrix if it is present. 
+-  Otherwise, return -1.
+
+Constraint:- 
+- Every row and column of the matrix is sorted in increasing order.
+
+Input format:-
+matrix = [[  1,  3,  5,  7],
+          [ 10, 11, 16, 20],
+          [ 23, 30, 34, 60]]
+target = 3
+
+Output format:-
+[0,1]
+
+Test Cases:-
+1) Input :
+      matrix = [[  1,  3,  5,  7],
+                [ 10, 11, 16, 20],
+                [ 23, 30, 34, 60]]
+      target = 13
+    Output :
+      -1
+
+2) Input :
+      matrix = [[  1,  3,  5,  7],
+               [ 10, 11, 16, 20],
+               [ 23, 30, 34, 60]]
+      target = 3
+    Output :
+      [0,1]
+      
+      
+      
