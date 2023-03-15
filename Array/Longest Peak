@@ -1,0 +1,24 @@
+@Algoexpert-coding-interview-questions
+Longest Peak
+
+Problem statement:-
+- You are given an array of integers. The task is to find the longest peak in the array.
+- A peak is defined as - at least 3 consecutive integers that are positioned in such a way that if you read from left to right, they are strictly increasing until they reach the largest value amongst them which is the tip of the peak, and then they become strictly decreasing. A peak is just like a mountain sub-array of our input array.
+- Return the length of the longest peak. If there is no such peak return -1.
+
+Input format:-
+array :  [2, 1, 4, 7, 3, 2, 5]
+
+Output format:-
+5
+
+Test Cases:-
+1) Input :
+     array :  [2, 2, 2]
+    Output :
+     -1
+
+2)Input :
+    array :  [1, 3, 1, 4, 5, 6, 7, 8, 9, 8, 7, 6, 5]
+   Output :
+    11
