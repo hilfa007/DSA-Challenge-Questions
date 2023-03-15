@@ -1,0 +1,30 @@
+@Algoexpert-coding-interview-questions
+Smallest Difference
+
+Problem statement:-
+- Given two non-empty arrays of integers, find the pair of values (one value from each array) with the smallest (non-negative) difference.
+- Return the smallest pair.
+
+Constraint:- 
+- The array values do not repeat and both arrays do not have any value in common.
+- The pair consists of one value from each array.
+
+Input format:-
+array1 : [0, -6, 4, 6, 5, -2]
+array2 : [-4, 8, 2, 3, 10, 9]
+
+Output format:-
+[4, 3]
+
+Test Cases:-
+1) Input :
+     array1 : [2, 4, 5, 6, 7]
+     array2 : [3, 10, 20, 16, 11]
+    Output :
+      [2, 3]
+
+2) Input :
+     array1 : [1, 3, 15, 11, 2]
+     array2 : [23, 127, 235, 19, 8]
+    Output :
+      [11, 8]
