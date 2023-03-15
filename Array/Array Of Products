@@ -1,0 +1,27 @@
+@Algoexpert-coding-interview-questions
+Array Of Products
+
+Problem statement:-
+- Given an array arr[] of n integers, construct a Product Array prod[] (of the same size) such that prod[i] is equal to the product of all the elements of arr[] except arr[i].
+
+Constraints :- 
+- Length of the input array :   2 <= nums.length <= 10^5
+- 30 <= nums[i] <= 30
+- The product of any prefix or suffix of nums is guaranteed to fit in a 32-bit integer.
+
+Input format:-
+array :  [10, 3, 5, 6, 2]
+
+Output format:-
+[180, 600, 360, 300, 900]
+
+Test Cases:-
+1) Input :
+     array :  [1, 2, 3, 4, 5]
+    Output :
+     [120, 60, 40, 30, 24]
+
+2)Input :
+    array :  [5, 1, 2, 4]
+   Output :
+    [8, 40, 20, 10]
