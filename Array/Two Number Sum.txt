@@ -1,0 +1,30 @@
+@Algoexpert-coding-interview-questions
+Two Number Sum
+
+Problem statement:-
+- Given an array of integers, and a target sum number, return an array of elements that add up to that target sum number.
+- If there is no such pair, return -1.
+
+Constraint:- 
+- You cannot just add a single number to itself to make the sum.
+
+Input format:-
+2 7 6 4 5
+10
+
+Output format:-
+6 4
+
+Test Cases:-
+1) Input :
+     4 6 7 8 5 9
+     10
+    Output :
+    4 6
+
+2) Input :
+    6 6 6 6 6 6 
+    10
+    Output :
+    -1
+
