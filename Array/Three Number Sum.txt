@@ -1,0 +1,23 @@
+@Algoexpert-coding-interview-questions
+Three Number Sum
+
+Problem statement:-
+- Given an array and a value, find if there is a triplet in an array whose sum is equal to the given value.
+- If there is such a triplet present in the array, then print the triplet and return true. Else return false.
+
+Constraint:- 
+- triplet sets must be unique.
+
+Input format:-
+array :  [1, 2, 3, 4, 5]
+target: 9
+
+Output format:-
+[[5, 3, 1]]
+
+Test Cases:-
+1) Input :
+        array : [7, 12, 3, 1, 2, -6, 5, -8, 6]
+        target : 0
+    Output :
+        [[ -8, 1, 7], [ -8, 2, 6], [-8, 3, 5], [ -6, 1, 5]]
