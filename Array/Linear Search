@@ -1,0 +1,26 @@
+Linear Search
+
+Problem statement:-
+- Linear Search is defined as a sequential search algorithm that starts at one end and goes through each element of a list until the desired element is found, otherwise the search continues till the end of the data set. It is the easiest searching algorithm.
+- Given an array of elements, the task is to write a function to search for a given element x in the array.
+- Return the position of x. If there is no such element, return -1.
+
+Input format:-
+arr = [10, 20, 80, 30, 60, 50,110, 100, 130, 170]
+x = 110
+
+Output format:-
+6
+
+Test Cases:-
+1) Input :
+      arr = [10, 20, 80, 30, 60, 50,110, 100, 130, 170]
+      x = 110    
+    Output :
+      6
+
+2)Input :
+      arr = [10, 20, 80, 30, 60, 50,110, 100, 130, 170]
+       x = 175
+    Output :
+      -1
