@@ -1,0 +1,27 @@
+@Algoexpert-coding-interview-questions
+Spiral Traverse
+
+Problem statement:-
+- The Spiral Matrix problem takes a 2-Dimensional array of N-rows and M-columns as an input, and prints the elements of this matrix in spiral order.
+- The spiral begins at the top left corner of the input matrix, and prints the elements it encounters, while looping towards the center of this matrix, in a clockwise manner.
+
+Constraint:- 
+-  The path should turn clockwise whenever it would go out of bounds or into a cell that was previously visited.
+
+Input format:-
+array : [[ 1, 2, 3, 4 ],
+         [ 5, 6, 7, 8 ],
+         [ 9,10,11,12 ],
+         [13,14,15,16 ]]
+
+Output format:-
+[1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10]
+
+Test Cases:-
+1) Input :
+     array :  [[ 22, 33, 44, 55 ],
+               [ 55, 66, 77, 88 ],
+               [ 11, 99, 12, 21 ],
+               [ 17, 71, 89, 87 ]]
+    Output :
+     [22, 33, 44, 55, 88, 21, 87, 89, 71, 17, 11, 55, 66, 77, 12, 99]
