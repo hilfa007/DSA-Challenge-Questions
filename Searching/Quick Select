@@ -1,0 +1,23 @@
+@Algoexpert-coding-interview-questions
+Quick Select
+
+Problem statement:-
+- Given an array and a number k where k is smaller than the size of the array,
+  we need to find the k’th smallest element in the given input array in linear time on average.
+- It is given that all array elements are distinct.   
+- Use the quick sort technique.
+
+Input format:-
+nums = [3,2,3,1,2,4,5,5,6]
+k = 4
+
+Output format:-
+3
+
+Test Cases:-
+1) Input :
+      nums = [8, 5, 2, 9, 7, 6, 3]
+      k = 3 
+    Output :
+      5
+
